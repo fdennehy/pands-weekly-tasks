@@ -10,7 +10,7 @@ numbers = []
 # prompt the user to enter a positive integer
 number = int(input("Please enter a positive integer "))
 
-# Add some validation on the entered number to ensure it is positive
+# Add some validation on the entered number to ensure it is a positive integer
 while number < 1:
     number = int(input("Please enter a positive integer "))
 
