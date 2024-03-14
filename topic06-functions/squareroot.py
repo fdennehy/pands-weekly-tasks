@@ -10,11 +10,8 @@ We can rephrase as finding the zero of f(x) = x² - a. We have f'(x) = 2x."
 xₙ+₁ = xₙ - ( f(xₙ) / f'(xₙ) )    =   xₙ - ((xₙ² - a) / 2xₙ)    =   (xₙ + (a/xₙ)) / 2
 '''
 
-# import the decimal module so that we can use decimals instead of floats
-from decimal import Decimal
-
-# prompt user input as type float and convert to decimal for future operations
-num = Decimal(float(input("Please enter a positive number: ")))
+# prompt user input as type float
+num = float(input("Please enter a positive number: "))
 
 # Add some validation on the entered number to ensure it is a positive float
 # This does not error trap string input but prevents user from inputting negative or zero values.
