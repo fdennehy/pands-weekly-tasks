@@ -1,7 +1,5 @@
 # pands-weekly-tasks
 
-**by Finbar Dennehy**
-
 ## About This Project
 
 This repository contains eight Python (.py) files, each relating to a specific topic covered as part of the Programming and Scripting module of the [HDip in Science in Computing in Data Analytics](https://www.gmit.ie/higher-diploma-in-science-in-computing-in-data-analytics), ATU Galway. In addition to the eight Python files, the repository contains this README.md file and a .gitignore file. Below is a brief description of each file:
@@ -56,23 +54,62 @@ https://github.com/github/gitignore/blob/main/Global/macOS.gitignore
 
 ## Use of this Project
 
-Each file can be used independently. Refer to the commentary within each file.
+This project may be useful to prospective students of the HDip in Sciene in Computing in Data Analytics course at ATU Galway, giving an indication of the content of the Programming and Scripting module and showcasing what can be achieved within a few weeks on the course. It may also be useful to other Python learners beginning their Data Analytics journey.
+
+## Prerequisites
+
+Before you begin, ensure you have the following installed on your system:
+
+- Git: [Download and Install Git](https://git-scm.com/)
+- Python: [Downloand and Install Python](https://www.python.org/downloads/)
 
 ## Get Started 
 
-To run the notebook locally, follow these instructions:
+Each file can be used independently. To run the files locally, clone the repository and then run the python files locally.
+
+### Cloning the Repository
+
+1. Open your terminal or command prompt (I use [cmder](https://cmder.app/))
+2. Navigate to the directory where you want to clone the repository.
+3. Use the following command to clone the repository:
+```bash
+$ git clone repository_url
+```
+Replace <repository_url> with the URL of the GitHub repository you want to clone. You can find this URL by clicking on the "Code" button on the repository's GitHub page.
+
+### Running Python Files
+
+1. After cloning the repository, navigate into the repository's directory using the 'cd' command:
+```bash
+$ cd repository_name
+```
+Replace <repository_name> with the name of the directory created when you cloned the repository.
+
+2. Once inside the repository's directory, you can run the Python files using the Python interpreter. For example, to run a file named example.py, use the following command:
+```bash
+$ python example.py
+```
+Replace example.py with the name of the Python file you want to execute.
+
+Now you're ready to explore and use the Python files in the repository! 
 
 ## Get Help
 
-Where users can get help with your project...
+Read the comments provided within the Python files and look up official Python documentation for further usage guidance.
 
 ## Contribute
 
-This project is intended as an independent project for academic purposes and wil. Developers are welcome to fork the repo 
+Developers are welcome to fork this repo and continue to develop and expand upon it as they wish.
 
 ## Author
 
-About me...
+**Finbar Dennehy**
 
-I'm currently studying at [ATU](https://www.atu.ie/). 
+I'm currently undertaking the [HDip in Science in Computing in Data Analytics](https://www.gmit.ie/higher-diploma-in-science-in-computing-in-data-analytics) on a part time basis at [ATU](https://www.atu.ie/)
 
+I have over ten years experience in capital markets consultancy and have spent the past few years working on software delivery and customer success. I am undertaking this program to better understand our cients, who are predominantly data scientists and data engineers.
+
+## Acknowledgements
+
+Special thanks to my lecturer on the Programming and Scripting module, Andrew Beatty, from whom I acquired the skils neccessary to put this project together.
+Now I'm going to stand up, strecth and grab myself a cup of tea!
