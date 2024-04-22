@@ -16,7 +16,7 @@ Description: Program that prompts the user and reads in two amounts (in cent), a
 
 3. *accounts.py*\
 Topic 3: Variables\
-Description: Program that reads in a 10 character account number and outputs the account numbers with only the last 4 digits showing (and the first 6 digits replaced with Xs). Program modified to deal with account numbers of any length.
+Description: Program that reads in a 10-character account number and outputs the account numbers with only the last 4 digits showing (and the first 6 digits replaced with Xs). Program modified to deal with account numbers of any length.
 
 4. *collatz.py*\
 Topic 4: Flow\
@@ -54,14 +54,14 @@ https://github.com/github/gitignore/blob/main/Global/macOS.gitignore
 
 ## Use of this Project
 
-This project may be useful to prospective students of the HDip in Sciene in Computing in Data Analytics course at ATU Galway, giving an indication of the content of the Programming and Scripting module and showcasing what can be achieved within a few weeks on the course. It may also be useful to other Python learners beginning their Data Analytics journey.
+This project may be useful to prospective students of the HDip in Science in Computing in Data Analytics course at ATU Galway, giving an indication of the content of the Programming and Scripting module and showcasing what can be achieved within a few weeks on the course. It may also be useful to other Python learners beginning their Data Analytics journey.
 
 ## Prerequisites
 
 Before you begin, ensure you have the following installed on your system:
 
 - Git: [Download and Install Git](https://git-scm.com/)
-- Python: [Downloand and Install Python](https://www.python.org/downloads/)
+- Python: [Download and Install Python](https://www.python.org/downloads/)
 
 ## Get Started 
 
@@ -73,23 +73,21 @@ Each file can be used independently. To run the files locally, clone the reposit
 2. Navigate to the directory where you want to clone the repository.
 3. Use the following command to clone the repository:
 ```bash
-$ git clone repository_url
+git clone https://github.com/fdennehy/pands-weekly-tasks
 ```
-Replace <repository_url> with the URL of the GitHub repository you want to clone. You can find this URL by clicking on the "Code" button on the repository's GitHub page.
 
 ### Running Python Files
 
 1. After cloning the repository, navigate into the repository's directory using the 'cd' command:
 ```bash
-$ cd repository_name
+cd repository_name
 ```
-Replace <repository_name> with the name of the directory created when you cloned the repository.
+Replace <repository_name> with the name of the directory under which you cloned the repository.
 
-2. Once inside the repository's directory, you can run the Python files using the Python interpreter. For example, to run a file named example.py, use the following command:
+2. Once inside the repository's directory, you can run the .py scripts using the Python interpreter. For example, to run the helloworld.py script, use the following command:
 ```bash
-$ python example.py
+python helloworld.py
 ```
-Replace example.py with the name of the Python file you want to execute.
 
 Now you're ready to explore and use the Python files in the repository! 
 
@@ -107,9 +105,9 @@ Developers are welcome to fork this repo and continue to develop and expand upon
 
 I'm currently undertaking the [HDip in Science in Computing in Data Analytics](https://www.gmit.ie/higher-diploma-in-science-in-computing-in-data-analytics) on a part time basis at [ATU](https://www.atu.ie/)
 
-I have over ten years experience in capital markets consultancy and have spent the past few years working on software delivery and customer success. I am undertaking this program to better understand our cients, who are predominantly data scientists and data engineers.
+I have over ten years' experience in capital markets consultancy and have spent the past few years working on software delivery and customer success. I am undertaking this program to better understand our clients, who are predominantly data scientists and data engineers.
 
 ## Acknowledgements
 
-Special thanks to my lecturer on the Programming and Scripting module, Andrew Beatty, from whom I acquired the skils neccessary to put this project together.
+Special thanks to my lecturer on the Programming and Scripting module, Andrew Beatty, from whom I acquired the skills necessary to put this project together.
 Now I'm going to stand up, strecth and grab myself a cup of tea!
