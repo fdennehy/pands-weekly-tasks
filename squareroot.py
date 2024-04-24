@@ -1,16 +1,17 @@
-# squareroot.py
-# Program that takes a positive floating-point number as input and outputs an approximation of its square root.
-# Author: Finbar Dennehy
-
-''' 
-Newton method: https://en.wikipedia.org/wiki/Newton%27s_method
-Newton's root finding algorithm: xₙ+₁ = xₙ - f(xₙ) / f'(xₙ) where xₙ is an approximation of the square root and xₙ+₁ is a better approximation.
-"Finding the square root of a number a, that is to say the positive number x such that x² = a. 
-We can rephrase as finding the zero of f(x) = x² - a. We have f'(x) = 2x."
-xₙ+₁ = xₙ - ( f(xₙ) / f'(xₙ) )    =   xₙ - ((xₙ² - a) / 2xₙ)    =   (xₙ + (a/xₙ)) / 2
+'''
+Filename: squareroot.py
+Description: Program that takes a positive floating-point number as input and outputs an approximation of its square root.
+Author: Finbar Dennehy
+Resources: 
+    Newton method: https://en.wikipedia.org/wiki/Newton%27s_method
+        Newton's root finding algorithm: xₙ+₁ = xₙ - f(xₙ) / f'(xₙ) where xₙ is an approximation of the square root and xₙ+₁ is a better approximation.
+        "Finding the square root of a number a, that is to say the positive number x such that x² = a. 
+        We can rephrase as finding the zero of f(x) = x² - a. We have f'(x) = 2x."
+        xₙ+₁ = xₙ - ( f(xₙ) / f'(xₙ) )    =   xₙ - ((xₙ² - a) / 2xₙ)    =   (xₙ + (a/xₙ)) / 2
+    Related Stack Overflow thread: https://stackoverflow.com/questions/28733759/python-square-function-using-newtons-algorithm
 '''
 
-# prompt user input as type float
+# prompt user input and store as type float
 num = float(input("Please enter a positive number: "))
 
 # Add some validation on the entered number to ensure it is a positive float
@@ -32,4 +33,4 @@ def sqrt(num):
     return approx
 
 # print output of our square root fucntion, rounded to 1 decimal place (per output format provided in the example)
-print(f"The square root of {num} is approx {sqrt(num):.1f}")
+print(f"The square root of {num} is approx {sqrt(num):.1f}.")
