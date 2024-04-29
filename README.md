@@ -90,22 +90,22 @@ the text file is saved in the same working directory as this es.py file is saved
         https://github.com/numpy/numpy \
     Matplotlib:\
         https://www.w3schools.com/python/matplotlib_intro.asp \
-        https://realpython.com/python-matplotlib-guide/ \
+        https://realpython.com/python-matplotlib-guide/ 
 
 9. **README.md**\
-*Description*: This README has been written with [GitHub's documentation on READMEs](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-readmes) in mind.\
+*Description*: This README has been written with [GitHub's documentation on READMEs](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-readmes) in mind.
 
 10. **.gitignore**\
 *Description*: I have used the below github templates to create my .gitignore file:\
     https://github.com/github/gitignore/blob/main/Python.gitignore \
     https://github.com/github/gitignore/blob/main/Global/Windows.gitignore \
-    https://github.com/github/gitignore/blob/main/Global/macOS.gitignore \
+    https://github.com/github/gitignore/blob/main/Global/macOS.gitignore 
 
 11. **eee.txt**\
-Description: A text file I created to test my es.py program.\
+Description: A text file I created to test my es.py program.
 
 12. **.mobydick.txt**\
-*Description*: A [text file of the novel Moby Dick](https://gist.github.com/StevenClontz/4445774) to test my es.py program.\
+*Description*: A [text file of the novel Moby Dick](https://gist.github.com/StevenClontz/4445774) to test my es.py program.
 
 ## Use of this Project
 
