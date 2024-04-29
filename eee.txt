@@ -1,0 +1,3 @@
+This is a text file to test my es.py script (e count = 5)
+We want to test if both capital E and lower case e are being counted (E count = 10)
+The total number of Es expected to be counted is 22 (total ecount 5 + 10 + 9 = 24)

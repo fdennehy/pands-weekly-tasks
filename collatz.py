@@ -5,10 +5,6 @@ Description:
     At each step, the next value is calculated by taking the current value and, if it is even, divide it by two, but if it is odd, multiply it by three and add one.
     The program ends if the current value is 1.
 Author: Finbar Dennehy
-Resources: I used the below two references to learn how to format the ouptut in the same way as presented in the example:
-    https://docs.python.org/3/library/functions.html#print
-    https://learnpython.com/blog/python-print-function/: 
-    "If you want to print an iterable object like a list or an array, using a starred expression helps unpack the iterable and print it nicely"
 '''
 
 # create a list to which the number and resultant calculations will be appended
@@ -30,5 +26,5 @@ while number != 1:
     else:
         # otherwise we know it's an odd number (remainder of 1) so we multiply by 3 and add 1
         number = int((number*3)+1)
-# print the numbers list using a starred expression and include final number (1)
+# print the numbers list using a starred expression and include final number (1), per format provided in the example output without commas
 print(*numbers, number)

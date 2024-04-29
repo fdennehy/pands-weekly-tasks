@@ -2,9 +2,6 @@
 Filename: accounts.py
 Description: A program that reads in a 10 character account number and outputs the account number with only the last 4 digits displayed (and the first 6 digits replaced with Xs)
 Author: Finbar Dennehy
-Resources: 
-    I referenced https://stackoverflow.com/questions/509211/how-slicing-in-python-works for more information on slicing in python.
-    I referenced https://stackoverflow.com/questions/38273353/how-to-repeat-individual-characters-in-strings-in-python to learn how to repeat letters through multiplication.
 '''
 # Modified program below.
 '''
@@ -28,7 +25,6 @@ redacted_account_number = redacted + (account_number[-4:])
 print(redacted_account_number)
 
 # Original program below
-
 '''
 # Ask user to enter 10 digit account number, defaulting to type str.
 account_number2 = input("Please enter a 10 digit account number: ")
