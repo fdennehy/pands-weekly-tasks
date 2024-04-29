@@ -7,7 +7,7 @@ Below is a brief description of each file, including links to any resources that
 
 ## Files Description
 
-1. **helloworld.py***\
+1. **helloworld.py**\
 *Topic 1*: Setup\
 *Description*: Program that displays 'Hello World!' when it is run.
 
@@ -22,7 +22,7 @@ Below is a brief description of each file, including links to any resources that
 3. **accounts.py**\
 *Topic 3*: Variables\
 *Description*: Program that reads in a 10-character account number and outputs the account numbers with only the last 4 digits showing (and the first 6 digits replaced with Xs). Program modified to deal with account numbers of any length.\
-*Resource references*:\ 
+*Resource references*:\
     https://stackoverflow.com/questions/509211/how-slicing-in-python-works for more information on slicing in python.\
     https://stackoverflow.com/questions/38273353/how-to-repeat-individual-characters-in-strings-in-python to learn how to repeat letters through multiplication.
 
@@ -76,8 +76,8 @@ The program ends if the current value is one.\
     https://www.youtube.com/watch?v=idq6rTYqvkY \
     mobydick.txt file used for testing purposes sourced from: https://gist.github.com/StevenClontz/4445774 \
 *Assumptions*:\
-- ask is to count number of e's in a text file: I assume this includes both lower case 'e's and upper case E's\
-- the text file is saved in the same working directory as this es.py file is saved
+ask is to count number of e's in a text file: I assume this includes both lower case 'e's and upper case E's\
+the text file is saved in the same working directory as this es.py file is saved
 
 8. **plotask.py**\
 *Topic 8*: Plots\
