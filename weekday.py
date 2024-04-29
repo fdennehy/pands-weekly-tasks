@@ -2,7 +2,14 @@
 Filename: weekday.py
 Description: Program that outputs whether or not today is a weekday
 Author: Finbar Dennehy
-    '''
+
+*Resource references*:
+    Official documentation on the datetime module: https://docs.python.org/3/library/datetime.html#module-datetime
+        datetime class: https://docs.python.org/3/library/datetime.html#datetime.datetime
+        today() function: https://docs.python.org/3/library/datetime.html#datetime.datetime.today
+        weekday() function: https://docs.python.org/3/library/datetime.html#datetime.datetime.weekday
+    Related thread on Stack Overflow: https://stackoverflow.com/questions/9847213/how-do-i-get-the-day-of-week-given-a-date
+'''
 
 # from the datetime module, import the datetime class:
 from datetime import datetime

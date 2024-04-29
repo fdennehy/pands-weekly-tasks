@@ -1,7 +1,21 @@
-# plottask.py
-# Plot a histogram of a normal distribution of 1000 values with a mean of 5 and standard deviation of 2, 
-# and a plot of the function  h(x)=x3 in the range 0 to 10, on the one set of axes.
+''' 
+Filename: plottask.py
+Description: 
+- Plot a histogram of a normal distribution of 1000 values with a mean of 5 and standard deviation of 2
+- Plot the function  h(x)=x3 in the range 0 to 10
+- Both plots plotted on the one set of axes.
 # Author: Finbar Dennehy
+
+Resource references:
+    Numpy:
+        https://realpython.com/tutorials/numpy/
+        https://www.w3schools.com/python/numpy_intro.asp
+        https://numpy.org/
+        https://github.com/numpy/numpy
+    Matplotlib:
+        https://www.w3schools.com/python/matplotlib_intro.asp
+        https://realpython.com/python-matplotlib-guide/
+'''
 
 import numpy as np
 import matplotlib.pyplot as plt

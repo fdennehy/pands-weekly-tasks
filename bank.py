@@ -5,6 +5,11 @@ Description: A program that:
     2) Adds the two amounts
     3) Prints out the answer in a human readable format with a euro sign and decimal point between the euro and cent of the amount
 Author: Finbar Dennehy
+
+Resource references:
+    https://www.w3schools.com/python/ref_string_format.asp to understand the Python String format() Method in more detail.
+    https://www.w3schools.com/python/python_string_formatting.asp to learn F_String is the preferred way of formatting strings to the above format() method.
+    https://www.w3schools.com/python/python_operators.asp for more documentation on operators.
     '''
 
 # Ask the User to enter first amount and store as an integer (instead of default type str).

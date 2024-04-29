@@ -8,6 +8,20 @@ Description:
         - Filename that does not exist
         - Filename provided is not a text file
 # Author: Finbar Dennehy
+
+Assumptions:
+- ask is to count number of e's in a text file: I assume this includes both lower case 'e's and upper case E's
+- the text file is saved in the same working directory as this es.py file is saved
+
+Resource references:
+    Similar task: https://www.geeksforgeeks.org/count-the-number-of-times-a-letter-appears-in-a-text-file-in-python/
+    Command line arguments: https://realpython.com/python-command-line-arguments/
+    Tutorial video on running python scripts with command line arguments using sys.argv https://youtu.be/rJCl7t3IIbA
+    Unicode: https://docs.python.org/3/howto/unicode.html
+    From research, argparse might be another module to consider:
+    https://docs.python.org/3/library/argparse.html
+    https://www.youtube.com/watch?v=idq6rTYqvkY
+    mobydick.txt file used for testing purposes sourced from: https://gist.github.com/StevenClontz/4445774
 '''
 
 # import the internal Python modules sys
